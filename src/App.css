@@ -1,0 +1,140 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #1e90ff;
+  color: #fff;
+  border-bottom: 2px solid #0057b7;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo img {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.header .logo h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  margin: 0 16px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+  color: #0057b7;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.candidates-container {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.candidates {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.candidate-card {
+  width: calc(50% - 20px);
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+}
+
+.candidate-card p {
+  margin: 10px 0;
+}
+
+.candidate-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.candidate-card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.tittle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tittle h2 {
+  font-size: 24px;
+  background: linear-gradient(to right, blue, red);
+  color: transparent;
+  margin: 5px 0;
+}
+
+.login-register {
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 1px;
+  text-align: center;
+  border-radius: 10px;
+}
